@@ -78,9 +78,21 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameCleanup.h" />
+    <ClInclude Include="GameEvent.h" />
+    <ClInclude Include="GameInit.h" />
+    <ClInclude Include="GameRender.h" />
+    <ClInclude Include="GameRuntime.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Student.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GameCleanup.cpp" />
+    <ClCompile Include="GameEvent.cpp" />
+    <ClCompile Include="GameInit.cpp" />
+    <ClCompile Include="GameRender.cpp" />
+    <ClCompile Include="GameRuntime.cpp" />
+    <ClCompile Include="Student.cpp" />
     <ClCompile Include="UniSim.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
